@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Shrenick Kothari — Finance Portfolio 2025</title>
+<meta name="description" content="Aryan Shrenick Kothari — MSc Corporate Financial Management, SKEMA. Finance internship candidate. Valuation, IB, AM, Corporate Finance, FP&A.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=DM+Mono:wght@300;400;500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F6F1E7;--paper2:#EEE7D7;--paper3:#E5DBCB;--paper4:#D9CEBC;--ink:#100E0C;--ink2:#2B2520;--muted:#7B7368;--faint:#A19890;--gold:#9B6F29;--gold2:#B98533;--gold3:#D5A944;--gold4:#F1C971;--green:#1B4B2B;--bd:rgba(155,111,41,.22);--bdl:rgba(155,111,41,.11);--div:rgba(16,14,12,.1);--divl:rgba(16,14,12,.06);--serif:'Cormorant Garamond',Georgia,serif;--mono:'DM Mono','Courier New',monospace;--sans:'Jost','Helvetica Neue',sans-serif;--e1:cubic-bezier(.25,.46,.45,.94);--e2:cubic-bezier(.16,1,.3,1)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;overflow-x:hidden;cursor:none}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:var(--paper2)}::-webkit-scrollbar-thumb{background:var(--gold)}
+::selection{background:rgba(155,111,41,.15);color:var(--ink)}a{color:inherit;text-decoration:none}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='.025'/%3E%3C/svg%3E");opacity:.55;mix-blend-mode:multiply}
+#cur{width:7px;height:7px;background:var(--gold);border-radius:50%;position:fixed;pointer-events:none;z-index:10000;transform:translate(-50%,-50%);mix-blend-mode:multiply}
+#cur-r{width:26px;height:26px;border:1px solid rgba(155,111,41,.35);border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .4s var(--e2),height .4s var(--e2)}
+body:has(a:hover) #cur-r,body:has(button:hover) #cur-r{width:44px;height:44px;border-color:rgba(155,111,41,.55)}
+#intro{position:fixed;inset:0;z-index:9000;background:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity 1s var(--e1),visibility 1s}
+#intro.out{opacity:0;visibility:hidden;pointer-events:none}
+.i-line{width:0;height:1px;background:var(--gold3);animation:widen .9s .1s var(--e2) forwards;margin-bottom:36px}
+@keyframes widen{to{width:100px}}
+.i-init{font-family:var(--serif);font-size:clamp(14px,2vw,18px);letter-spacing:.4em;color:rgba(241,201,113,.5);text-transform:uppercase;opacity:0;animation:fadeUp .7s .2s forwards;margin-bottom:10px}
+.i-name{font-family:var(--serif);font-size:clamp(26px,4vw,46px);font-weight:400;color:var(--paper);text-align:center;letter-spacing:.04em;opacity:0;animation:fadeUp .9s .5s forwards;margin-bottom:5px}
+.i-prog{font-family:var(--mono);font-size:9px;letter-spacing:.3em;color:rgba(241,201,113,.5);text-transform:uppercase;opacity:0;animation:fadeUp .8s .8s forwards;margin-bottom:44px}
+.i-bar{width:150px;height:1px;background:rgba(255,255,255,.07);overflow:hidden}
+.i-fill{height:100%;background:var(--gold3);width:0;transition:width .04s linear}
+.i-pct{font-family:var(--mono);font-size:9px;color:rgba(255,255,255,.2);letter-spacing:.2em;margin-top:10px;opacity:0;animation:fadeUp .6s .3s forwards}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}.i-name,.i-prog,.i-init{transform:translateY(8px)}
+#nav{position:fixed;top:0;left:0;right:0;z-index:800;display:flex;align-items:center;justify-content:space-between;padding:0 64px;height:58px;border-bottom:1px solid transparent;transition:all .4s var(--e1)}
+#nav.stuck{background:rgba(246,241,231,.95);backdrop-filter:blur(12px);border-color:var(--divl)}
+.nav-logo{font-family:var(--serif);font-size:17px;font-weight:600;letter-spacing:.02em}.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:30px;list-style:none}
+.nav-links a{font-family:var(--mono);font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint);transition:color .2s;position:relative;padding-bottom:2px}
+.nav-links a::after{content:'';position:absolute;bottom:0;left:0;right:100%;height:1px;background:var(--gold);transition:right .3s var(--e2)}
+.nav-links a:hover{color:var(--ink)}.nav-links a:hover::after{right:0}
+.nav-dl{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:9px 18px;border:none;cursor:pointer;transition:background .25s;display:inline-flex;align-items:center;gap:7px}
+.nav-dl:hover{background:var(--gold)}
+#burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+#burger span{display:block;width:20px;height:1px;background:var(--ink);transition:all .3s}
+#mob-nav{display:none;position:fixed;top:58px;left:0;right:0;background:rgba(246,241,231,.98);backdrop-filter:blur(12px);border-bottom:1px solid var(--divl);padding:18px 24px;z-index:799;flex-direction:column}
+#mob-nav.open{display:flex}
+#mob-nav a{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);padding:13px 0;border-bottom:1px solid var(--divl);transition:color .2s}
+#mob-nav a:hover{color:var(--gold)}#mob-nav a:last-child{border-bottom:none}
+#hero{min-height:100vh;padding-top:58px;display:grid;grid-template-columns:1fr 380px;border-bottom:2px solid var(--ink);position:relative;overflow:hidden}
+.hero-ruled{position:absolute;inset:0;pointer-events:none;background-image:repeating-linear-gradient(180deg,transparent,transparent 47px,rgba(16,14,12,.05) 47px,rgba(16,14,12,.05) 48px)}
+.hero-wm{position:absolute;bottom:-50px;left:-20px;font-family:var(--serif);font-size:clamp(180px,28vw,400px);font-weight:700;color:rgba(155,111,41,.04);pointer-events:none;line-height:1;letter-spacing:-.04em;user-select:none}
+.hero-l{padding:80px 68px 68px;display:flex;flex-direction:column;justify-content:center;border-right:1px solid var(--div);position:relative;z-index:2}
+.h-tag{font-family:var(--mono);font-size:8.5px;letter-spacing:.38em;color:var(--gold);text-transform:uppercase;margin-bottom:38px;display:flex;align-items:center;gap:13px;opacity:0;animation:fadeUp .8s 1.8s forwards}
+.h-tag::before{content:'';display:block;width:24px;height:1px;background:var(--gold)}
+h1{font-family:var(--serif);font-size:clamp(48px,7vw,100px);font-weight:300;line-height:.93;letter-spacing:-.025em;margin-bottom:32px}
+.hl{display:block;overflow:hidden;opacity:0;transform:translateY(105%)}
+.hl.a1{animation:slideIn .9s 1.9s var(--e2) forwards}.hl.a2{animation:slideIn .9s 2.05s var(--e2) forwards}.hl.a3{animation:slideIn .9s 2.2s var(--e2) forwards;font-style:italic;color:var(--gold)}
+@keyframes slideIn{to{opacity:1;transform:translateY(0)}}
+.h-body{font-family:var(--sans);font-size:14px;color:var(--muted);line-height:1.85;max-width:440px;margin-bottom:44px;opacity:0;animation:fadeUp .8s 2.5s forwards}
+.h-btns{display:flex;gap:11px;flex-wrap:wrap;opacity:0;animation:fadeUp .8s 2.7s forwards}
+.btn-dark{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:13px 26px;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:9px;transition:background .25s;text-decoration:none}
+.btn-dark:hover{background:var(--gold)}
+.btn-out{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;background:transparent;color:var(--ink);padding:12px 26px;border:1px solid var(--div);cursor:pointer;display:inline-flex;align-items:center;gap:9px;transition:all .25s;text-decoration:none}
+.btn-out:hover{border-color:var(--gold);color:var(--gold)}
+.h-avail{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:8.5px;letter-spacing:.15em;color:var(--green);border:1px solid rgba(27,75,43,.25);padding:7px 13px;background:rgba(27,75,43,.06);margin-top:16px;width:fit-content;opacity:0;animation:fadeUp .8s 2.9s forwards}
+.h-avail::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--green);animation:pulse 2s infinite;flex-shrink:0}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.4)}}
+.h-scroll{position:absolute;bottom:28px;left:68px;font-family:var(--mono);font-size:8px;letter-spacing:.25em;color:var(--faint);display:flex;align-items:center;gap:9px;opacity:0;animation:fadeUp 1s 3.1s forwards}
+.h-scroll-bar{width:28px;height:1px;background:var(--faint);overflow:hidden;position:relative}
+.h-scroll-bar::after{content:'';position:absolute;inset:0;background:var(--gold);animation:scan 2s 3.5s infinite}
+@keyframes scan{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.hero-r{background:var(--ink);padding:32px 28px;display:flex;flex-direction:column;position:relative;z-index:2;overflow:hidden}
+#ticker{background:var(--paper3);border-top:1px solid var(--div);border-bottom:1px solid var(--div);padding:11px 0;overflow:hidden}
+.tk-inner{display:flex;animation:tkRoll 50s linear infinite;white-space:nowrap}
+.tki{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:9px;letter-spacing:.07em;color:var(--muted);padding:0 22px;border-right:1px solid var(--divl)}
+.tki .v{color:var(--gold)}@keyframes tkRoll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.sec{padding:92px 68px;border-bottom:1px solid var(--div);position:relative;background:var(--paper)}
+.sec.alt{background:var(--paper2)}.sec.dark{background:#0D2518}
+.sec-hd{display:grid;grid-template-columns:110px 1fr;gap:0;margin-bottom:60px;align-items:start}
+.sec-n{font-family:var(--mono);font-size:8.5px;color:var(--faint);letter-spacing:.3em;padding-top:12px}
+.sec-n-light{font-family:var(--mono);font-size:8.5px;color:rgba(246,241,231,.2);letter-spacing:.3em;padding-top:12px}
+.sec-t{font-family:var(--serif);font-size:clamp(30px,4.2vw,58px);font-weight:400;line-height:1;letter-spacing:-.02em;margin-bottom:12px}
+.sec-t em{color:var(--gold);font-style:italic}.sec-t-light{font-family:var(--serif);font-size:clamp(30px,4.2vw,58px);font-weight:400;line-height:1;letter-spacing:-.02em;margin-bottom:12px;color:var(--paper)}
+.sec-t-light em{color:var(--gold3);font-style:italic}
+.sec-rule{height:1px;background:linear-gradient(90deg,var(--gold),transparent);width:0;transition:width 1.2s var(--e2);margin-bottom:12px}
+.sec-rule.on{width:100%;background:linear-gradient(90deg,var(--gold),var(--gold3),var(--gold),transparent);background-size:200% auto;animation:shimmer 3s linear infinite}
+.sec-rule-light{height:1px;background:linear-gradient(90deg,var(--gold3),transparent);width:0;transition:width 1.2s var(--e2);margin-bottom:12px}
+.sec-rule-light.on{width:100%}
+@keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
+.sec-sub{font-family:var(--sans);font-size:14px;color:var(--muted);line-height:1.75;max-width:540px}
+.sec-sub-light{font-family:var(--sans);font-size:14px;color:rgba(246,241,231,.42);line-height:1.75;max-width:540px}
+.proj-list{display:flex;flex-direction:column}
+.prow{display:grid;grid-template-columns:72px 1fr 200px 170px 50px;align-items:center;padding:26px 0;border-bottom:1px solid var(--divl);cursor:pointer;position:relative;opacity:0;transform:translateY(8px);transition:background .2s,opacity .5s var(--e2),transform .5s var(--e2),box-shadow .2s}
+.prow::before{content:'';position:absolute;left:-68px;right:-68px;top:0;bottom:0;background:var(--paper2);opacity:0;transition:opacity .2s;z-index:0}
+.prow:hover::before{opacity:1}.prow:hover{box-shadow:0 4px 20px rgba(16,14,12,.06)}.prow>*{position:relative;z-index:1}.prow.vis{opacity:1;transform:translateY(0)}
+.pr-n{font-family:var(--mono);font-size:9.5px;color:var(--faint);letter-spacing:.12em}
+.pr-title{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--ink);margin-bottom:3px;line-height:1.2}
+.pr-cat{font-family:var(--mono);font-size:8px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
+.pr-desc{font-family:var(--sans);font-size:12.5px;color:var(--muted);line-height:1.55;max-width:280px}
+.pr-badge{font-family:var(--mono);font-size:7.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 11px;border:1px solid;display:inline-block}
+.pr-badge.done{color:var(--green);border-color:rgba(27,75,43,.3);background:rgba(27,75,43,.06)}
+.pr-badge.wip{color:var(--gold);border-color:var(--bdl);background:rgba(155,111,41,.05)}
+.pr-met{font-family:var(--serif);font-size:19px;font-weight:500;color:var(--ink);text-align:right}
+.pr-met small{display:block;font-family:var(--mono);font-size:8px;color:var(--faint);letter-spacing:.14em;text-transform:uppercase;font-weight:400;margin-top:2px}
+.pr-arr{font-size:17px;color:var(--faint);text-align:right;transition:color .2s,transform .2s}
+.prow:hover .pr-arr{color:var(--gold);transform:translate(3px,-3px)}
+.mv-wrap{display:grid;grid-template-columns:1fr 300px;border:1px solid var(--div)}
+.mv-left{border-right:1px solid var(--div)}
+.mv-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--div);background:var(--paper3)}
+.mv-bar-l{font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.mv-bar-l::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold);box-shadow:0 0 6px rgba(155,111,41,.5);flex-shrink:0}
+.mv-acts{display:flex;gap:6px}
+.mv-act{font-family:var(--mono);font-size:7.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--faint);border:1px solid var(--divl);padding:5px 11px;background:transparent;cursor:pointer;transition:all .2s;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.mv-act:hover{border-color:var(--gold);color:var(--gold)}
+.pdf-area{width:100%;height:660px;background:var(--paper3);display:flex;align-items:center;justify-content:center;flex-direction:column}
+.pdf-area iframe{width:100%;height:100%;border:none;display:block}
+.mv-panel{padding:28px 24px;display:flex;flex-direction:column;background:var(--paper)}
+.mvp-t{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--ink);line-height:1.2;margin-bottom:4px}
+.mvp-c{font-family:var(--mono);font-size:8px;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin-bottom:16px}
+.mvp-d{font-family:var(--sans);font-size:12.5px;color:var(--muted);line-height:1.75;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid var(--divl)}
+.mvp-kpis{display:flex;flex-direction:column;gap:12px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid var(--divl)}
+.krow{display:flex;justify-content:space-between;align-items:baseline}
+.kl{font-family:var(--mono);font-size:8px;letter-spacing:.12em;color:var(--faint);text-transform:uppercase}
+.kv{font-family:var(--serif);font-size:16px;font-weight:600;color:var(--ink)}
+.dl-head{font-family:var(--mono);font-size:8px;letter-spacing:.28em;color:var(--faint);text-transform:uppercase;margin-bottom:10px}
+.dl-btn{display:flex;align-items:center;gap:11px;padding:12px 14px;border:1px solid var(--divl);background:var(--paper2);cursor:pointer;text-decoration:none;transition:all .25s;margin-bottom:8px;position:relative;overflow:hidden}
+.dl-btn::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--gold);transform:scaleY(0);transform-origin:bottom;transition:transform .3s var(--e2)}
+.dl-btn:hover{background:var(--paper3);border-color:var(--bd)}.dl-btn:hover::before{transform:scaleY(1)}
+.dl-ic{width:30px;height:30px;background:var(--paper3);border:1px solid var(--divl);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;transition:border-color .2s}
+.dl-btn:hover .dl-ic{border-color:var(--gold)}
+.dl-nm{font-family:var(--serif);font-size:13px;font-weight:600;color:var(--ink);display:block;margin-bottom:1px}
+.dl-mt{font-family:var(--mono);font-size:7.5px;letter-spacing:.1em;color:var(--faint);text-transform:uppercase}
+.dl-ar{margin-left:auto;font-size:13px;color:var(--faint);transition:color .2s,transform .2s;flex-shrink:0}
+.dl-btn:hover .dl-ar{color:var(--gold);transform:translateY(2px)}
+
+/* ═══════ ENGINE SECTION ═══════ */
+#engine{background:#0D2518}
+.eng-wrap{display:grid;grid-template-columns:1fr 340px;border:1px solid rgba(255,255,255,.07)}
+.eng-left{border-right:1px solid rgba(255,255,255,.07)}
+.eng-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.07);background:rgba(0,0,0,.2)}
+.eng-bar-l{font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;color:rgba(246,241,231,.4);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.eng-bar-l::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold3);box-shadow:0 0 8px rgba(213,169,68,.4);flex-shrink:0;animation:pulse 2s infinite}
+.eng-acts{display:flex;gap:6px}
+.eng-act{font-family:var(--mono);font-size:7.5px;letter-spacing:.15em;text-transform:uppercase;color:rgba(246,241,231,.28);border:1px solid rgba(255,255,255,.08);padding:5px 11px;background:transparent;cursor:pointer;transition:all .2s;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.eng-act.active{color:var(--gold3);border-color:rgba(213,169,68,.35);pointer-events:auto;opacity:1}
+.eng-act.disabled{opacity:.3;pointer-events:none}
+.eng-act:hover{border-color:var(--gold3);color:var(--gold3)}
+.eng-iframe-wrap{width:100%;height:700px;background:rgba(0,0,0,.15);position:relative;overflow:hidden}
+.eng-iframe-wrap iframe{width:100%;height:100%;border:none;display:block}
+.eng-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:52px 44px;text-align:center}
+.eng-ph-badge{font-family:var(--mono);font-size:8px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold3);border:1px solid rgba(213,169,68,.25);padding:5px 14px;margin-bottom:28px;display:inline-block}
+.eng-ph-title{font-family:var(--serif);font-size:clamp(24px,3vw,40px);font-style:italic;color:var(--paper);line-height:1.1;margin-bottom:16px}
+.eng-ph-sub{font-family:var(--sans);font-size:13px;color:rgba(246,241,231,.38);line-height:1.75;max-width:380px;margin-bottom:36px}
+.eng-modules{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.06);width:100%;max-width:480px;margin:0 auto}
+.eng-mod{padding:14px 16px;background:#0D2518}
+.eng-mod-n{font-family:var(--mono);font-size:8px;letter-spacing:.15em;color:var(--gold3);margin-bottom:4px}
+.eng-mod-t{font-family:var(--serif);font-size:13px;color:rgba(246,241,231,.65);line-height:1.3}
+.eng-panel{padding:28px 24px;display:flex;flex-direction:column;background:rgba(0,0,0,.18)}
+.eng-panel-t{font-family:var(--serif);font-size:18px;font-weight:500;color:var(--paper);line-height:1.2;margin-bottom:4px}
+.eng-panel-c{font-family:var(--mono);font-size:8px;letter-spacing:.22em;color:var(--gold3);text-transform:uppercase;margin-bottom:16px}
+.eng-panel-d{font-family:var(--sans);font-size:12.5px;color:rgba(246,241,231,.45);line-height:1.75;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.06)}
+.eng-kpis{display:flex;flex-direction:column;gap:12px;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.06)}
+.eng-krow{display:flex;justify-content:space-between;align-items:baseline}
+.eng-kl{font-family:var(--mono);font-size:8px;letter-spacing:.12em;color:rgba(246,241,231,.28);text-transform:uppercase}
+.eng-kv{font-family:var(--serif);font-size:16px;font-weight:500;color:var(--paper)}
+.eng-stack-head{font-family:var(--mono);font-size:8px;letter-spacing:.28em;color:rgba(246,241,231,.2);text-transform:uppercase;margin-bottom:10px}
+.eng-stack{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:20px}
+.eng-stack-tag{font-family:var(--mono);font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:rgba(246,241,231,.45);border:1px solid rgba(255,255,255,.08);padding:4px 9px}
+.eng-rel-head{font-family:var(--mono);font-size:8px;letter-spacing:.28em;color:rgba(246,241,231,.2);text-transform:uppercase;margin-bottom:10px}
+.eng-rel{display:flex;flex-direction:column;gap:7px;margin-bottom:20px}
+.eng-rel-item{display:flex;align-items:flex-start;gap:8px}
+.eng-rel-tag{font-family:var(--mono);font-size:7px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold3);border:1px solid rgba(213,169,68,.2);padding:2px 7px;flex-shrink:0;margin-top:1px}
+.eng-rel-text{font-family:var(--sans);font-size:11.5px;color:rgba(246,241,231,.38);line-height:1.55}
+.eng-status{background:rgba(213,169,68,.06);border:1px solid rgba(213,169,68,.18);padding:14px 16px;margin-bottom:16px}
+.eng-status-lbl{font-family:var(--mono);font-size:7.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold3);margin-bottom:5px;display:flex;align-items:center;gap:6px}
+.eng-status-lbl::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold3);animation:pulse 2s infinite;flex-shrink:0}
+.eng-status-txt{font-family:var(--sans);font-size:12px;color:rgba(246,241,231,.5);line-height:1.6}
+.eng-cta{display:flex;align-items:center;justify-content:space-between;padding:11px 14px;font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;transition:all .2s;border:none;width:100%;text-decoration:none}
+.eng-cta-live{background:var(--gold);color:var(--ink)}.eng-cta-live:hover{background:var(--gold3)}
+.eng-cta-soon{background:rgba(255,255,255,.05);color:rgba(246,241,231,.2);pointer-events:none;border:1px solid rgba(255,255,255,.06)}
+
+.ab-grid{display:grid;grid-template-columns:280px 1fr;gap:64px;align-items:start}
+.ab-card{background:var(--paper2);border:1px solid var(--div);position:sticky;top:76px}
+.ab-info{padding:22px}
+.ab-name{font-family:var(--serif);font-size:17px;font-weight:600;color:var(--ink);margin-bottom:2px}
+.ab-role{font-family:var(--mono);font-size:8px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
+.ab-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:14px}
+.ab-tag{font-family:var(--mono);font-size:7.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border:1px solid var(--divl);padding:3px 8px}
+.ab-links{display:flex;flex-direction:column;gap:8px;padding-top:13px;border-top:1px solid var(--divl)}
+.ab-lk{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;color:var(--muted);transition:color .2s}
+.ab-lk:hover{color:var(--gold)}
+.ab-lk-ic{width:22px;height:22px;border:1px solid var(--divl);display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0}
+.ab-lead{font-family:var(--serif);font-size:clamp(17px,2vw,23px);font-weight:400;font-style:italic;line-height:1.5;color:var(--ink);margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid var(--divl)}
+.ab-p{font-family:var(--sans);font-size:14px;color:var(--muted);line-height:1.85;margin-bottom:14px}
+.ab-sig{font-family:var(--serif);font-size:28px;font-style:italic;color:var(--gold);margin-top:22px;margin-bottom:32px}
+.sk-head{font-family:var(--mono);font-size:8px;letter-spacing:.3em;color:var(--faint);text-transform:uppercase;margin-bottom:14px;margin-top:28px}
+.sk-grid{display:flex;flex-direction:column;gap:18px;margin-top:4px}
+.sk-cat{opacity:0;transform:translateY(12px);transition:opacity .55s var(--e2),transform .55s var(--e2)}.sk-cat.vis{opacity:1;transform:none}
+.sk-cat-label{font-family:var(--mono);font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:9px;display:flex;align-items:center;gap:8px}
+.sk-cat-label::before{content:'';display:inline-block;width:16px;height:1px;background:var(--gold)}
+.sk-chips{display:flex;flex-wrap:wrap;gap:6px}
+.sk-chip{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border:1px solid var(--divl);color:var(--muted);background:var(--paper2);transition:all .2s;cursor:default}
+.sk-chip.hi{border-color:var(--bd);color:var(--gold);background:rgba(155,111,41,.06)}
+.sk-chip:hover{border-color:var(--gold);color:var(--ink);background:var(--paper3)}
+.tl-head{font-family:var(--mono);font-size:8px;letter-spacing:.3em;color:var(--faint);text-transform:uppercase;margin-bottom:14px;margin-top:28px}
+.tl{position:relative;padding-left:22px}.tl::before{content:'';position:absolute;left:4px;top:8px;bottom:8px;width:1px;background:var(--divl)}
+.tl-i{position:relative;margin-bottom:26px;opacity:0;transform:translateX(-14px);transition:opacity .6s var(--e2),transform .6s var(--e2)}.tl-i.vis{opacity:1;transform:none}
+.tl-i::before{content:'';position:absolute;left:-18px;top:8px;width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.tl-yr{font-family:var(--mono);font-size:8px;color:var(--faint);letter-spacing:.15em;margin-bottom:3px}
+.tl-role{font-family:var(--serif);font-size:16px;font-weight:600;color:var(--ink)}
+.tl-co{font-family:var(--mono);font-size:8px;color:var(--gold);letter-spacing:.12em;margin:3px 0 6px;text-transform:uppercase}
+.tl-bullets{list-style:none;display:flex;flex-direction:column;gap:5px}
+.tl-bullets li{font-family:var(--sans);font-size:12.5px;color:var(--muted);padding-left:13px;position:relative;line-height:1.55}
+.tl-bullets li::before{content:'—';position:absolute;left:0;color:var(--gold);font-size:11px}
+#creds{background:var(--paper);padding:44px 68px;border-bottom:1px solid var(--div)}
+.li-card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid var(--divl)}
+.li-card-label{font-family:var(--sans);font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.li-follow-btn{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid var(--bd);padding:7px 16px;background:rgba(155,111,41,.05);cursor:pointer;transition:all .2s;text-decoration:none;flex-shrink:0}
+.li-follow-btn:hover{background:var(--gold);color:var(--paper)}
+.li-posts{display:flex;flex-direction:column}
+.li-post{display:flex;align-items:center;gap:16px;padding:16px 0;border-bottom:1px solid var(--divl);text-decoration:none;position:relative;cursor:pointer}
+.li-post:last-child{border-bottom:none}
+.li-post::before{content:'';position:absolute;left:-68px;right:-68px;top:0;bottom:0;background:var(--paper2);opacity:0;transition:opacity .2s}
+.li-post:hover::before{opacity:1}.li-post>*{position:relative;z-index:1}
+.li-post-icon{width:42px;height:42px;background:var(--paper3);border:1px solid var(--divl);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.li-post-title{font-family:var(--serif);font-size:15px;font-weight:600;color:var(--ink);margin-bottom:2px}
+.li-post-sub{font-family:var(--sans);font-size:12px;color:var(--muted);margin-bottom:3px}
+.li-post-meta{font-family:var(--mono);font-size:8px;letter-spacing:.12em;color:var(--faint);text-transform:uppercase}
+.li-post-arrow{margin-left:auto;font-size:16px;color:var(--faint);transition:color .2s,transform .2s;flex-shrink:0}
+.li-post:hover .li-post-arrow{color:var(--gold);transform:translate(3px,-3px)}
+.connect-head{font-family:var(--mono);font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:var(--faint);margin-top:28px;margin-bottom:12px}
+.connect-btns{display:flex;gap:8px;flex-wrap:wrap}
+.connect-btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;padding:11px 18px;border:1px solid var(--div);text-decoration:none;transition:all .25s;position:relative;overflow:hidden;color:var(--ink2)}
+.connect-btn::before{content:'';position:absolute;inset:0;opacity:0;transition:opacity .25s}
+.connect-btn:hover::before{opacity:1}.connect-btn:hover{color:var(--paper)}
+.connect-btn.li::before{background:#0A66C2}.connect-btn.wa::before{background:#25D366}.connect-btn.ph::before{background:var(--ink)}
+.connect-btn svg,.connect-btn span{position:relative;z-index:1}
+.co-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+.co-pre{font-family:var(--mono);font-size:8px;color:var(--faint);letter-spacing:.3em;text-transform:uppercase;margin-bottom:13px}
+.co-h{font-family:var(--serif);font-size:clamp(32px,4.2vw,54px);font-weight:400;line-height:.98;letter-spacing:-.025em;margin-bottom:18px}
+.co-h em{color:var(--gold);font-style:italic}
+.co-p{font-family:var(--sans);font-size:14px;color:var(--muted);line-height:1.82;margin-bottom:32px}
+.co-item{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.co-ic{width:34px;height:34px;background:var(--paper2);border:1px solid var(--div);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:10px;color:var(--gold);flex-shrink:0}
+.co-t strong{display:block;font-family:var(--mono);font-size:7.5px;letter-spacing:.22em;color:var(--faint);text-transform:uppercase;margin-bottom:1px}
+.co-t a,.co-t span{font-family:var(--sans);font-size:13px;color:var(--ink2);transition:color .2s}
+.co-t a:hover{color:var(--gold)}
+.avail-badge{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:8px;letter-spacing:.16em;color:var(--green);border:1px solid rgba(27,75,43,.22);padding:7px 13px;background:rgba(27,75,43,.05);margin-top:20px}
+.avail-badge::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--green);animation:pulse 2s infinite;flex-shrink:0}
+.form{display:flex;flex-direction:column;gap:15px}
+.fg label{display:block;font-family:var(--mono);font-size:7.5px;letter-spacing:.28em;color:var(--faint);text-transform:uppercase;margin-bottom:6px}
+.fg input,.fg select,.fg textarea{width:100%;background:var(--paper2);border:1px solid var(--div);color:var(--ink);font-family:var(--sans);font-size:14px;padding:12px 14px;outline:none;resize:none;transition:border-color .25s}
+.fg input::placeholder,.fg textarea::placeholder{color:var(--faint)}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--gold)}
+.fg select{cursor:pointer;appearance:none}.f2{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.sub-btn{align-self:flex-start;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;background:var(--ink);color:var(--paper);border:none;padding:13px 28px;cursor:pointer;display:inline-flex;align-items:center;gap:9px;transition:background .25s}
+.sub-btn:hover{background:var(--gold)}
+footer{background:var(--ink2);padding:44px 68px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;border-top:1px solid var(--div)}
+.ft-brand .ft-logo{font-family:var(--serif);font-size:17px;font-weight:500;color:var(--paper)}.ft-brand .ft-logo span{color:var(--gold3)}
+.ft-brand .ft-sub{font-family:var(--mono);font-size:8px;color:rgba(246,241,231,.22);letter-spacing:.12em;margin-top:3px}
+.ft-nav{display:flex;gap:22px}
+.ft-nav a{font-family:var(--mono);font-size:8px;letter-spacing:.18em;text-transform:uppercase;color:rgba(246,241,231,.28);transition:color .2s}
+.ft-nav a:hover{color:var(--gold3)}
+.ft-top{font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:rgba(246,241,231,.28);background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:6px;transition:color .2s}
+.ft-top:hover{color:var(--gold3)}
+.mbg{position:fixed;inset:0;z-index:7000;background:rgba(16,14,12,.68);backdrop-filter:blur(8px);opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s;display:flex;align-items:center;justify-content:center;padding:28px}
+.mbg.on{opacity:1;visibility:visible}
+.mp{background:var(--paper);border:1px solid var(--div);max-width:820px;width:100%;max-height:88vh;overflow-y:auto;transform:translateY(14px) scale(.99);transition:transform .35s var(--e2);position:relative;box-shadow:0 20px 64px rgba(16,14,12,.15)}
+.mbg.on .mp{transform:translateY(0) scale(1)}
+.mp-x{position:sticky;top:14px;float:right;margin:14px 14px -14px 0;width:30px;height:30px;background:var(--paper2);border:1px solid var(--div);color:var(--muted);font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;z-index:10}
+.mp-x:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mp-top{padding:40px 48px 26px;border-bottom:1px solid var(--div)}
+.mp-eye{font-family:var(--mono);font-size:8px;letter-spacing:.32em;color:var(--gold);text-transform:uppercase;margin-bottom:9px;display:flex;align-items:center;gap:9px}
+.mp-eye::before{content:'';width:16px;height:1px;background:var(--gold)}
+.mp-h{font-family:var(--serif);font-size:clamp(22px,3vw,34px);font-weight:500;letter-spacing:-.02em;line-height:1.1;margin-bottom:13px}
+.mp-tagline{font-family:var(--sans);font-size:14px;color:var(--muted);line-height:1.7}
+.mp-metrics{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--div)}
+.mm{padding:22px 26px;border-right:1px solid var(--div);background:var(--paper2)}.mm:last-child{border-right:none}
+.mm-v{font-family:var(--serif);font-size:24px;font-weight:500;color:var(--ink);letter-spacing:-.02em;margin-bottom:3px}
+.mm-l{font-family:var(--mono);font-size:7.5px;letter-spacing:.2em;color:var(--faint);text-transform:uppercase}
+.mp-body{padding:32px 48px 40px}.ms{margin-bottom:28px}
+.ms-t{font-family:var(--mono);font-size:8px;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:12px;padding-bottom:7px;border-bottom:1px solid var(--divl)}
+.ms p{font-family:var(--sans);font-size:13.5px;color:var(--ink2);line-height:1.78}
+.ms ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.ms li{font-family:var(--sans);font-size:13px;color:var(--ink2);padding-left:14px;position:relative;line-height:1.6}
+.ms li::before{content:'—';position:absolute;left:0;color:var(--gold)}
+.out-box{border-left:2px solid var(--gold);padding:12px 17px;background:rgba(155,111,41,.05);margin-top:8px}
+.out-box p{font-family:var(--mono)!important;font-size:11px!important;color:var(--ink)!important;line-height:1.7!important}
+.mp-foot{display:flex;justify-content:space-between;align-items:center;padding:12px 48px;border-top:1px solid var(--div);background:var(--paper2)}
+.mp-nb{font-family:var(--mono);font-size:8px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);background:none;border:none;cursor:pointer;transition:color .2s;display:flex;align-items:center;gap:5px}
+.mp-nb:hover{color:var(--gold)}.mp-nb:disabled{opacity:.22;cursor:default}
+@keyframes floatUp{0%{opacity:0;transform:translateY(0) scale(.5)}20%{opacity:.6}80%{opacity:.3}100%{opacity:0;transform:translateY(-80px) scale(1.2)}}
+.particle{position:absolute;border-radius:50%;pointer-events:none;animation:floatUp linear infinite}
+.rv{opacity:0;transform:translateY(20px);transition:opacity .7s var(--e2),transform .7s var(--e2)}
+.rv.l{transform:translateX(-20px)}.rv.r{transform:translateX(20px)}.rv.on{opacity:1!important;transform:none!important}
+@media(max-width:1100px){#nav{padding:0 32px}.hero-l{padding:80px 36px 60px}.sec{padding:72px 36px}#creds{padding:28px 36px}.li-post::before{left:-36px;right:-36px}.ab-grid{grid-template-columns:1fr;gap:44px}.ab-card{position:relative;top:0}.mv-wrap{grid-template-columns:1fr}.mv-left{border-right:none;border-bottom:1px solid var(--div)}.eng-wrap{grid-template-columns:1fr}.eng-left{border-right:none;border-bottom:1px solid rgba(255,255,255,.07)}.co-grid{grid-template-columns:1fr;gap:44px}footer{padding:36px}}
+@media(max-width:768px){#nav{padding:0 18px}.nav-links,.nav-dl{display:none}#burger{display:flex}#hero{grid-template-columns:1fr}.hero-r{display:none}.hero-l{padding:78px 22px 52px}.sec{padding:52px 22px}.sec-hd{grid-template-columns:44px 1fr}#creds{padding:22px}.li-post::before{left:-22px;right:-22px}.connect-btns{flex-direction:column}.prow{grid-template-columns:36px 1fr auto;gap:10px}.pr-desc,.pr-met,.pr-arr{display:none}.mp-top{padding:26px 22px 20px}.mp-body{padding:22px 22px 28px}.mp-metrics{grid-template-columns:1fr}.mp-foot{padding:11px 22px}footer{padding:28px 22px;flex-direction:column;align-items:flex-start}.ft-nav{display:none}.f2{grid-template-columns:1fr}.eng-modules{grid-template-columns:repeat(2,1fr)}}
+@media print{#intro,#nav,#mob-nav,.mbg,footer .ft-top{display:none!important}body{cursor:auto!important;background:#fff!important}*{animation:none!important;transition:none!important}.rv,.tl-i,.sk-cat,.prow{opacity:1!important;transform:none!important}@page{margin:1.4cm}}
+</style>
+</head>
+<body>
+<div id="cur"></div><div id="cur-r"></div>
+<div id="intro"><div class="i-line"></div><div class="i-init">MSc Corporate Financial Management · SKEMA</div><div class="i-name">Aryan Shrenick Kothari</div><div class="i-prog">Finance Portfolio — 2025</div><div class="i-bar"><div class="i-fill" id="iFill"></div></div><div class="i-pct" id="iPct">Loading...</div></div>
+<nav id="nav">
+  <div class="nav-logo">A<span>.</span>S<span>.</span>K</div>
+  <ul class="nav-links"><li><a href="#work">Deal Book</a></li><li><a href="#model">Model</a></li><li><a href="#engine">Engine</a></li><li><a href="#about">Profile</a></li><li><a href="#contact">Contact</a></li></ul>
+  <button class="nav-dl" onclick="window.open('Resume_aryan_s_kothari.pdf')">&#8595; Download CV</button>
+  <button id="burger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</nav>
+<div id="mob-nav"><a href="#work" onclick="toggleMenu()">Deal Book</a><a href="#model" onclick="toggleMenu()">Model</a><a href="#engine" onclick="toggleMenu()">Engine</a><a href="#about" onclick="toggleMenu()">Profile</a><a href="#contact" onclick="toggleMenu()">Contact</a><a href="Resume_aryan_s_kothari.pdf" download>Download CV</a></div>
+<section id="hero">
+  <div class="hero-ruled"></div><div class="hero-wm">ASK</div>
+  <div class="hero-l">
+    <div class="h-tag">Actively Seeking Finance Roles &#8212; Studies End April 2026</div>
+    <h1><span class="hl a1">Numbers.</span><span class="hl a2">Strategy.</span><span class="hl a3">Real Value.</span></h1>
+    <p class="h-body">MSc Corporate Financial Management candidate at SKEMA Business School, Paris. I bring hands-on experience from wealth management and equity research &#8212; and a genuine drive to contribute from day one across any area of finance that matters.</p>
+    <div class="h-btns"><a href="#work" class="btn-dark">View Deal Book <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a href="#contact" class="btn-out">Get In Touch</a></div>
+    <div class="h-avail">Actively Seeking Finance &amp; Full-Time Roles &#8212; Studies End April 2026</div>
+    <div class="h-scroll"><div class="h-scroll-bar"></div>Scroll to explore</div>
+  </div>
+  <div class="hero-r">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.08)"><div><div style="font-family:var(--mono);font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:rgba(246,241,231,.35);margin-bottom:3px">Global Markets</div><div id="mktClock" style="font-family:var(--mono);font-size:10px;color:rgba(246,241,231,.5)">&#8212;</div></div><div style="font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold3);display:flex;align-items:center;gap:6px"><span style="width:5px;height:5px;border-radius:50%;background:var(--gold3);animation:pulse 1.5s infinite;display:inline-block;flex-shrink:0"></span>Live</div></div>
+    <div id="mktGrid" style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.06);flex:1"></div>
+    <div style="padding-top:12px;margin-top:14px;border-top:1px solid rgba(255,255,255,.06);font-family:var(--mono);font-size:7px;letter-spacing:.08em;color:rgba(246,241,231,.18)">Indicative only &#183; Not investment advice</div>
+  </div>
+</section>
+<div id="ticker"><div class="tk-inner"><span class="tki">Financial Modeling &amp; Valuation <span class="v">DCF &#183; LBO &#183; Comps &#183; M&amp;A</span></span><span class="tki">Capital Allocation <span class="v">Portfolio Strategy</span></span><span class="tki">Python <span class="v">Finance Applications</span></span><span class="tki">Nuvama Wealth <span class="v">Wealth Management Associate</span></span><span class="tki">Prabhudas Lilladher <span class="v">Finance Intern</span></span><span class="tki">SKEMA Business School <span class="v">MSc Corporate Finance</span></span><span class="tki">Intermediate Python for Finance <span class="v">Certified</span></span><span class="tki">Financial Modeling &amp; Valuation <span class="v">DCF &#183; LBO &#183; Comps &#183; M&amp;A</span></span><span class="tki">Capital Allocation <span class="v">Portfolio Strategy</span></span><span class="tki">Python <span class="v">Finance Applications</span></span><span class="tki">Nuvama Wealth <span class="v">Wealth Management Associate</span></span><span class="tki">Prabhudas Lilladher <span class="v">Finance Intern</span></span><span class="tki">SKEMA Business School <span class="v">MSc Corporate Finance</span></span><span class="tki">Intermediate Python for Finance <span class="v">Certified</span></span></div></div>
+
+<!-- DEAL BOOK -->
+<section id="work" class="sec">
+  <div class="sec-hd rv"><div class="sec-n">01</div><div><h2 class="sec-t">The Deal <em>Book.</em></h2><div class="sec-rule" id="r1"></div><p class="sec-sub">Real models. Real decisions. Click any row to explore the full methodology, assumptions, and outputs behind each piece of work.</p></div></div>
+  <div class="proj-list" id="projList"></div>
+</section>
+
+<!-- MODEL -->
+<section id="model" class="sec alt">
+  <div class="sec-hd rv"><div class="sec-n">02</div><div><h2 class="sec-t">The <em>Model.</em></h2><div class="sec-rule" id="r2"></div><p class="sec-sub">View the Ferragamo Valuation Model in full &#8212; or download the PDF report and Excel workbook directly to your device.</p></div></div>
+  <div class="mv-wrap rv">
+    <div class="mv-left">
+      <div class="mv-bar"><div class="mv-bar-l">Ferragamo Valuation Model &#8212; PDF Report</div><div class="mv-acts"><a href="feragammo_spa_report.pdf" target="_blank" class="mv-act">&#10162; Full Screen</a><a href="feragammo_spa_report.pdf" download class="mv-act">&#8595; Download</a></div></div>
+      <div class="pdf-area" id="pdfArea"></div>
+    </div>
+    <div class="mv-panel">
+      <div class="mvp-t">Salvatore Ferragamo S.p.A.</div><div class="mvp-c">HOLD / NEUTRAL &#183; SFER:IM &#183; Mar 2026</div>
+      <div class="mvp-d">Full equity research: FCFF DCF, EV/EBITDA &amp; P/E comparables, capital structure &amp; income forecasts to FY2030E. Q4 2025 DTC +6.3% cc &#8212; FY2025 confirmed trough year.</div>
+      <div class="mvp-kpis"><div class="krow"><span class="kl">Blended Intrinsic Value</span><span class="kv">&#8364;8.05</span></div><div class="krow"><span class="kl">Current Price (Mar 2026)</span><span class="kv">&#8364;6.69</span></div><div class="krow"><span class="kl">Implied Upside</span><span class="kv" style="color:var(--green)">+20.3%</span></div><div class="krow"><span class="kl">WACC</span><span class="kv">6.62%</span></div><div class="krow"><span class="kl">EV / EBITDA (2025E)</span><span class="kv">9.7&#215;</span></div><div class="krow"><span class="kl">FY2025 Revenue</span><span class="kv">&#8364;977M (beat)</span></div></div>
+      <div class="dl-head">Download Files</div>
+      <a class="dl-btn" href="feragammo_spa_report.pdf" download><div class="dl-ic">&#128196;</div><div><span class="dl-nm">Valuation Report</span><span class="dl-mt">PDF &#183; Full Report</span></div><span class="dl-ar">&#8595;</span></a>
+      <a class="dl-btn" href="Ferragamo_S_p_A_Valuation_Model.xlsx" download><div class="dl-ic">&#128202;</div><div><span class="dl-nm">Excel Workbook</span><span class="dl-mt">XLSX &#183; Full Model + Scenarios</span></div><span class="dl-ar">&#8595;</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- THE ENGINE — New dedicated section -->
+<section id="engine" class="sec dark">
+  <div class="sec-hd rv">
+    <div class="sec-n-light">03</div>
+    <div>
+      <h2 class="sec-t-light">The <em>Engine.</em></h2>
+      <div class="sec-rule-light" id="r3"></div>
+      <p class="sec-sub-light">A Python-based deal sourcing and preliminary diligence tool &#8212; replicating the early-stage M&amp;A analyst workflow from target screening through FDD-style review. Built on European public market data.</p>
+    </div>
+  </div>
+  <div class="eng-wrap rv">
+    <div class="eng-left">
+      <div class="eng-bar">
+        <div class="eng-bar-l">Deal Sourcing &amp; Preliminary Diligence Engine &#8212; European M&amp;A</div>
+        <div class="eng-acts">
+          <!-- Once deployed: remove class "disabled", add href to your Streamlit URL -->
+          <a href="https://aryanskothari-deal-sourcing.streamlit.app" target="_blank" class="eng-act active" id="btnFullscreen">&#10162; Full Screen</a>
+          <a href="https://aryanskothari-deal-sourcing.streamlit.app" target="_blank" class="eng-act active" id="btnLaunch">&#8599; Launch App</a>
+        </div>
+      </div>
+      <div class="eng-iframe-wrap">
+        <iframe src="https://aryanskothari-deal-sourcing.streamlit.app/?embed=true" allow="fullscreen" style="width:100%;height:700px;border:none;display:block"></iframe>
+      </div>
+      <!-- PLACEHOLDER REMOVED — app is live -->
+      <div class="eng-iframe-wrap">
+        <div class="eng-ph">
+          <div class="eng-ph-badge">In Development &#8212; Phase 1</div>
+          <div class="eng-ph-title">Deal Sourcing &amp; Preliminary<br>Diligence Engine</div>
+          <div class="eng-ph-sub">A live Streamlit application will be embedded here once Phase 1 is deployed. The tool replicates early-stage M&amp;A analyst workflow across six modules.</div>
+          <div class="eng-modules">
+            <div class="eng-mod"><div class="eng-mod-n">01</div><div class="eng-mod-t">Universe Screener</div></div>
+            <div class="eng-mod"><div class="eng-mod-n">02</div><div class="eng-mod-t">Target Ranker</div></div>
+            <div class="eng-mod"><div class="eng-mod-n">03</div><div class="eng-mod-t">Financial Statements</div></div>
+            <div class="eng-mod"><div class="eng-mod-n">04</div><div class="eng-mod-t">Diligence View</div></div>
+            <div class="eng-mod"><div class="eng-mod-n">05</div><div class="eng-mod-t">Deal Signals</div></div>
+            <div class="eng-mod"><div class="eng-mod-n">06</div><div class="eng-mod-t">Shortlist Export</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eng-panel">
+      <div class="eng-panel-t">Deal Sourcing &amp; Preliminary Diligence Engine</div>
+      <div class="eng-panel-c">Python &#183; European M&amp;A &#183; Phase 1 Building</div>
+      <div class="eng-panel-d">Simulates the full early-stage deal team workflow: universe definition &#8594; acquisition target screening &#8594; ranking &#8594; financial statement standardisation &#8594; preliminary FDD-style review &#8594; shortlist generation.</div>
+      <div class="eng-kpis">
+        <div class="eng-krow"><span class="eng-kl">Modules</span><span class="eng-kv">6</span></div>
+        <div class="eng-krow"><span class="eng-kl">Market Focus</span><span class="eng-kv">EU &#8212; Phase 1</span></div>
+        <div class="eng-krow"><span class="eng-kl">Data Source</span><span class="eng-kv">yfinance + SBF 120</span></div>
+        <div class="eng-krow"><span class="eng-kl">Scoring Engine</span><span class="eng-kv">8-Pillar 0&#8211;100</span></div>
+      </div>
+      <div class="eng-stack-head">Stack</div>
+      <div class="eng-stack"><span class="eng-stack-tag">Python</span><span class="eng-stack-tag">Streamlit</span><span class="eng-stack-tag">Pandas</span><span class="eng-stack-tag">Plotly</span><span class="eng-stack-tag">yfinance</span><span class="eng-stack-tag">openpyxl</span></div>
+      <div class="eng-rel-head">Recruiting Relevance</div>
+      <div class="eng-rel">
+        <div class="eng-rel-item"><span class="eng-rel-tag">M&amp;A</span><span class="eng-rel-text">Deal origination logic, target universe definition, acquisition fit scoring</span></div>
+        <div class="eng-rel-item"><span class="eng-rel-tag">PE</span><span class="eng-rel-text">Pipeline sourcing, financial quality assessment, entry price signals</span></div>
+        <div class="eng-rel-item"><span class="eng-rel-tag">IB</span><span class="eng-rel-text">Financial statement analysis, sector coverage, client-ready exports</span></div>
+        <div class="eng-rel-item"><span class="eng-rel-tag">FDD</span><span class="eng-rel-text">QoE, adjusted EBITDA, working capital, net debt, red flag panel</span></div>
+      </div>
+      <div class="eng-status"><div class="eng-status-lbl">Currently Building</div><div class="eng-status-txt">Phase 1 in development &#8212; Euronext Paris / SBF 120 screener, 8-pillar ranker, financial statements, FDD-style diligence view. Live app will be embedded above on deployment.</div></div>
+      <!-- DISABLED until app is live. Once live: remove class eng-cta-soon, add eng-cta-live, set href -->
+      <a href="https://aryanskothari-deal-sourcing.streamlit.app" target="_blank" class="eng-cta eng-cta-live" id="engCta"><span>Launch Live App</span><span>&#8594;</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <div class="sec-hd rv"><div class="sec-n">04</div><div><h2 class="sec-t">The <em>Candidate.</em></h2><div class="sec-rule" id="r4"></div></div></div>
+  <div class="ab-grid">
+    <div class="ab-card rv l">
+      <div style="background:var(--paper3);overflow:hidden;padding:0;aspect-ratio:1;border-bottom:1px solid var(--div)"><img src="photo.jpeg" alt="Aryan S. Kothari" style="width:100%;height:100%;object-fit:cover;object-position:center 12%;display:block;transform:scale(1.4);transform-origin:center 20%"/></div>
+      <div class="ab-info">
+        <div class="ab-name">Aryan Shrenick Kothari</div><div class="ab-role">MSc Corp. Finance &#183; SKEMA Paris</div>
+        <div class="ab-tags"><span class="ab-tag">Analytical Rigour</span><span class="ab-tag">Clear Communication</span><span class="ab-tag">Deadline-Driven</span><span class="ab-tag">Attention to Detail</span><span class="ab-tag">Stakeholder Mgmt</span><span class="ab-tag">Collaborative</span><span class="ab-tag">Adaptability</span></div>
+        <div class="ab-links"><a href="https://www.linkedin.com/in/aryan-s-kothari" target="_blank" class="ab-lk"><div class="ab-lk-ic">in</div>aryan-s-kothari</a><a href="/cdn-cgi/l/email-protection#7b1a09021a150810140f131a09123b1c161a121755181416" class="ab-lk"><div class="ab-lk-ic">&#9993;</div><span class="__cf_email__" data-cfemail="2647545f4748554d49524e47544f66414b474f4a0845494b">[email&#160;protected]</span></a><a href="tel:+33766070692" class="ab-lk"><div class="ab-lk-ic">&#9990;</div>+33 7 66 07 06 92</a><a href="Resume_aryan_s_kothari.pdf" download class="ab-lk"><div class="ab-lk-ic">&#8595;</div>Download CV / Resume</a></div>
+      </div>
+    </div>
+    <div class="rv r">
+      <p class="ab-lead">&#8220;I want to be in rooms where decisions are made &#8212; and earn my place there through the quality of my analysis.&#8221;</p>
+      <p class="ab-p">MSc Corporate Financial Management candidate at SKEMA Business School, Paris (2024&#8211;2026). Formerly a Wealth Management Associate at Nuvama Wealth (Bengaluru) where I managed portfolios for 30+ HNI clients across AIFs, PMS, and NCDs, delivering 5&#8211;8% annual growth.</p>
+      <p class="ab-p">I&#8217;ve done the real work &#8212; building models under deadline, presenting to clients, running analysis that shaped actual decisions. Now I&#8217;m looking to bring that same intensity into any corner of finance where rigour and execution matter.</p>
+      <div class="ab-sig">Aryan S. Kothari</div>
+      <div class="sk-head">Skills &amp; Tools</div>
+      <div id="skEl" class="sk-grid">
+        <div class="sk-cat"><div class="sk-cat-label">Modeling</div><div class="sk-chips"><span class="sk-chip hi">DCF</span><span class="sk-chip hi">LBO</span><span class="sk-chip hi">M&amp;A</span><span class="sk-chip hi">Trading Comps</span><span class="sk-chip hi">Precedent Tx</span><span class="sk-chip">3-Statement</span><span class="sk-chip">Sensitivity Analysis</span></div></div>
+        <div class="sk-cat"><div class="sk-cat-label">Tools</div><div class="sk-chips"><span class="sk-chip hi">Excel (Advanced)</span><span class="sk-chip hi">PowerPoint</span><span class="sk-chip hi">Python</span><span class="sk-chip">Bloomberg</span><span class="sk-chip">SQL</span><span class="sk-chip">CapIQ</span></div></div>
+        <div class="sk-cat"><div class="sk-cat-label">Finance</div><div class="sk-chips"><span class="sk-chip hi">Equity Research</span><span class="sk-chip hi">Portfolio Mgmt</span><span class="sk-chip">Risk Assessment</span><span class="sk-chip">FP&amp;A</span><span class="sk-chip">Regulatory Compliance</span><span class="sk-chip">Client Presentations</span></div></div>
+        <div class="sk-cat"><div class="sk-cat-label">Beyond Finance</div><div class="sk-chips"><span class="sk-chip">&#127936; Basketball &#8212; College Level</span><span class="sk-chip">&#127992; Badminton</span><span class="sk-chip">&#128218; Market Research</span><span class="sk-chip">&#9820; Strategic Thinking</span></div></div>
+      </div>
+      <div class="tl-head">Experience</div>
+      <div class="tl">
+        <div class="tl-i"><div class="tl-yr">Sep 2024 &#8212; Ongoing</div><div class="tl-role">MSc Corporate Financial Management</div><div class="tl-co">SKEMA Business School &#183; Paris, France</div><ul class="tl-bullets"><li>Specialisation in banking, corporate finance and securities law</li><li>Building institutional-grade financial models across valuation, LBO, M&amp;A and FP&amp;A</li></ul></div>
+        <div class="tl-i"><div class="tl-yr">Nov 2022 &#8212; Apr 2024 &#183; 1 yr 6 mos</div><div class="tl-role">Wealth Management Associate</div><div class="tl-co">Nuvama Wealth &#183; Bengaluru</div><ul class="tl-bullets"><li>Managed portfolios for 30+ HNI clients across AIFs, PMS, and NCDs &#8212; delivered 5&#8211;8% annual growth</li><li>Built and maintained financial models supporting investment recommendations and capital allocation</li><li>Prepared client presentations converting market data and macro trends into actionable strategies</li><li>Conducted risk assessments and monitored portfolio performance with full regulatory compliance</li></ul></div>
+        <div class="tl-i"><div class="tl-yr">Jul 2021 &#8212; Sep 2021 &#183; 3 mos</div><div class="tl-role">Finance Intern</div><div class="tl-co">Prabhudas Lilladher &#183; Bangalore</div><ul class="tl-bullets"><li>Conducted fundamental and technical analysis on investment baskets &#8212; improved returns by 5%</li><li>Supported daily portfolio management and prepared valuation reports using peer and financial data</li><li>Assisted senior analysts in drafting investment summaries and client presentations</li></ul></div>
+        <div class="tl-i"><div class="tl-yr">Apr 2017 &#8212; Sep 2023 &#183; Part-time</div><div class="tl-role">Marketing &amp; Strategy Associate</div><div class="tl-co">Padmashri Jewellers Pvt. Ltd. &#183; Bengaluru</div><ul class="tl-bullets"><li>Analysed financial statements, costs and revenue trends &#8212; boosted stock sales by 10%</li><li>Evaluated investment opportunities contributing to three successful strategic partnerships</li></ul></div>
+        <div class="tl-head" style="margin-top:32px">Leadership &amp; Activities</div>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <div style="padding:14px 16px 14px 20px;border:1px solid var(--divl);background:var(--paper2);border-left:2px solid var(--gold)"><div class="tl-yr">Sep 2024 &#8212; Present</div><div class="tl-role"><a href="https://www.linkedin.com/company/skema-finance-paris/" target="_blank" style="color:inherit;border-bottom:1px solid var(--bdl)">SKEMA Finance Club</a></div><div class="tl-co">Member &#183; Paris, France</div><ul class="tl-bullets" style="margin-top:5px"><li>Participate in M&amp;A/LBO case workshops (7+ cases) to strengthen transaction logic, modelling discipline, and deal-style communication.</li></ul></div>
+          <div style="padding:14px 16px 14px 20px;border:1px solid var(--divl);background:var(--paper2);border-left:2px solid var(--gold)"><div class="tl-yr">Apr 2017 &#8212; Sep 2023</div><div class="tl-role"><a href="https://krupalovinganimals.weebly.com/" target="_blank" style="color:inherit;border-bottom:1px solid var(--bdl)">Krupa Loving Animals NGO</a></div><div class="tl-co">Operations &amp; Process Improvement Volunteer &#183; Bengaluru, India</div><ul class="tl-bullets" style="margin-top:5px"><li>Managed 15+ team members across operational initiatives, improving coordination and process efficiency.</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="creds" class="rv">
+  <div class="li-card-header"><div class="li-card-label"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>Latest on LinkedIn &#8212; <a href="https://www.linkedin.com/in/aryan-s-kothari" target="_blank" style="color:var(--gold2);text-decoration:none">View full profile &#8594;</a></div><a href="https://www.linkedin.com/in/aryan-s-kothari" target="_blank" class="li-follow-btn">Follow</a></div>
+  <div class="li-posts">
+    <a href="https://www.linkedin.com/posts/skema-finance-paris_2025-yearly-market-recap-ugcPost-7419114287916445696-E4AH" target="_blank" class="li-post"><div class="li-post-icon">&#128200;</div><div><div class="li-post-title">2025 Yearly Market Recap</div><div class="li-post-sub">SKEMA Finance Club &#183; Global markets performance across equities, rates &amp; macro themes in 2025</div><div class="li-post-meta">Repost &#183; Jan 2026</div></div><div class="li-post-arrow">&#8599;</div></a>
+    <a href="https://www.linkedin.com/posts/skema-finance-paris_euronext-discovery-day-inside-the-leading-activity-7408477088237871104--lvl" target="_blank" class="li-post"><div class="li-post-icon">&#127963;</div><div><div class="li-post-title">Euronext Discovery Day &#8212; Inside the Leading European Exchange</div><div class="li-post-sub">SKEMA Finance Club &#183; Behind-the-scenes access to one of Europe&#8217;s leading equity &amp; derivatives exchanges</div><div class="li-post-meta">Repost &#183; Oct 2025</div></div><div class="li-post-arrow">&#8599;</div></a>
+    <a href="https://www.linkedin.com/posts/skema-entrepreneurs_weareskema-skemaentrepreneurs-entrepreneuriat-ugcPost-7253064230403198978-fcCM" target="_blank" class="li-post"><div class="li-post-icon">&#128640;</div><div><div class="li-post-title">Entrepreneurship &amp; Innovation at SKEMA</div><div class="li-post-sub">SKEMA Entrepreneurs &#183; Student ventures, startup pitches &amp; entrepreneurial culture at SKEMA</div><div class="li-post-meta">Repost &#183; Sep 2024</div></div><div class="li-post-arrow">&#8599;</div></a>
+  </div>
+</div>
+
+<section id="contact" class="sec alt">
+  <div class="co-grid">
+    <div class="rv l">
+      <div class="co-pre">05 &#8212; Contact</div>
+      <h2 class="co-h">Let&#8217;s<br>Talk <em>Finance.</em></h2>
+      <p class="co-p">Currently completing my MSc at SKEMA Paris &#8212; studies wrap up April 30, 2026. Open to any internship in finance: structuring, analysis, modeling, research, strategy, or operations. If there&#8217;s a spreadsheet involved, I&#8217;m interested.</p>
+      <div class="co-item"><div class="co-ic">&#9993;</div><div class="co-t"><strong>Primary Email</strong><a href="/cdn-cgi/l/email-protection#d0b1a2a9b1bea3bbbfa4b8b1a2b990b7bdb1b9bcfeb3bfbd"><span class="__cf_email__" data-cfemail="2746555e4649544c48534f46554e67404a464e4b0944484a">[email&#160;protected]</span></a></div></div>
+      <div class="co-item"><div class="co-ic">&#9993;</div><div class="co-t"><strong>Alternative Email</strong><a href="/cdn-cgi/l/email-protection#abcad9d2cac585c0c4dfc3cad9c2ebd8c0cec6ca85cecfde"><span class="__cf_email__" data-cfemail="1372616a727d3d787c677b72617a536078767e723d767766">[email&#160;protected]</span></a></div></div>
+      <div class="co-item"><div class="co-ic">&#9990;</div><div class="co-t"><strong>Phone / WhatsApp</strong><a href="tel:+33766070692">+33 7 66 07 06 92</a></div></div>
+      <div class="co-item"><div class="co-ic">in</div><div class="co-t"><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/aryan-s-kothari" target="_blank">aryan-s-kothari</a></div></div>
+      <div class="co-item"><div class="co-ic">&#8982;</div><div class="co-t"><strong>Location</strong><span>Paris, France &#8212; Open to Europe</span></div></div>
+      <div class="avail-badge">Available for Internships &amp; Full-Time Roles &#183; Studies End April 30, 2026</div>
+      <div class="connect-head">Reach Me Directly</div>
+      <div class="connect-btns">
+        <a href="https://www.linkedin.com/messaging/compose/?recipient=aryan-s-kothari" target="_blank" class="connect-btn li"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg><span>Message on LinkedIn</span></a>
+        <a href="https://wa.me/33766070692?text=Hi%20Aryan%2C%20I%20came%20across%20your%20finance%20portfolio%20and%20would%20like%20to%20connect." target="_blank" class="connect-btn wa"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg><span>WhatsApp</span></a>
+        <a href="tel:+33766070692" class="connect-btn ph"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17.92z"/></svg><span>Call</span></a>
+      </div>
+    </div>
+    <div class="rv r">
+      <form class="form" onsubmit="handleForm(event)">
+        <div class="f2"><div class="fg"><label>Full Name</label><input type="text" placeholder="Jane Smith" required></div><div class="fg"><label>Email</label><input type="email" placeholder="jane@firm.com" required></div></div>
+        <div class="fg"><label>Firm / Organisation</label><input type="text" placeholder="BNP Paribas, Lazard, McKinsey..."></div>
+        <div class="fg"><label>Opportunity Type</label><select><option>Finance Internship</option><option>Investment Banking</option><option>M&amp;A Advisory</option><option>Asset Management</option><option>Equity Research</option><option>Corporate Finance / FP&amp;A</option><option>Private Equity / VC</option><option>Capital Markets</option><option>Risk / Treasury</option><option>Other Finance Role</option><option>Full-Time Role (Post-MSc)</option></select></div>
+        <div class="fg"><label>Message</label><textarea rows="5" placeholder="Tell me about the role, team, and timeline..."></textarea></div>
+        <button type="submit" class="sub-btn">Send Message <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="ft-brand"><div class="ft-logo">Aryan S<span>.</span> Kothari</div><div class="ft-sub">MSc Corporate Financial Management &#183; SKEMA &#183; Paris 2025</div></div>
+  <nav class="ft-nav"><a href="#work">Deal Book</a><a href="#model">Model</a><a href="#engine">Engine</a><a href="#about">Profile</a><a href="#contact">Contact</a></nav>
+  <button class="ft-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593; Top</button>
+</footer>
+<div class="mbg" id="mBg" onclick="closeM(event)">
+  <div class="mp" id="mPanel"><button class="mp-x" onclick="closeM()">&#10005;</button><div id="mCont"></div>
+    <div class="mp-foot"><button class="mp-nb" id="mPrev" onclick="navM(-1)">&#8592; Previous</button><span style="font-family:var(--mono);font-size:8px;color:var(--faint);letter-spacing:.15em" id="mPos">1 / 3</span><button class="mp-nb" id="mNext" onclick="navM(1)">Next &#8594;</button></div>
+  </div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+var DEALS=[
+  {num:"01",f:"valuation",s:"done",title:"Ferragamo Valuation Model",cat:"Full Equity Valuation",desc:"Complete equity research on Salvatore Ferragamo S.p.A \u2014 FCFF DCF, trading comps, capital structure. HOLD/NEUTRAL, blended IV 8.05EUR, +20.3% upside.",metric:"8.05EUR",mLbl:"Blended IV",stats:[{v:"+20.3%",l:"Upside"},{v:"9.7x",l:"EV/EBITDA"},{v:"HOLD",l:"Rating"}],obj:"Full equity research on SFER:IM. HOLD/NEUTRAL. Blended IV EUR8.05 (50% FCFF, 25% P/E, 25% EV/EBITDA) vs current price EUR6.69. FY2025 revenues EUR977M beat consensus EUR940-960M. Q4 2025 DTC +6.3% cc \u2014 first positive DTC quarter. FY2025 confirmed trough.",meth:["FCFF DCF: WACC 6.62% (CAPM: Rf 3.8%, ERP 5.5%, Beta 0.80), terminal value via EV/EBITDA exit and Gordon Growth","Trading comps: luxury peers on EV/EBITDA and P/E \u2014 at discount (21.7x vs peer avg 27.7x)","Capital structure: net cash +EUR200M; economic obligations incl. IFRS 16 leases ~EUR765M; Eco ND/EBITDA 7.6x 2025E","Forecast 2025-2030E: revenue CAGR ~3.2%; EBIT breakeven FY2027E; net income positive FY2030E","Revenue by segment: Footwear 42%, Leather Goods 42%, Apparel 7%, Other 9%","Earnings: FY2025 rev EUR977M vs est. EUR940-960M (+1.8-3.9% beat); Q4 DTC recovery +6.3% cc"],out:"Blended IV: EUR8.05 (+20.3% upside) | WACC: 6.62% | EV/EBITDA 2025E: 9.7x | Rating: HOLD/NEUTRAL"},
+  {num:"02",f:"dcf",s:"wip",title:"Standalone DCF Model",cat:"Intrinsic Valuation",desc:"Standalone intrinsic valuation with driver-based FCF projections, WACC build via CAPM, and scenario sensitivity analysis.",metric:"In Progress",mLbl:"Publishing Soon",stats:[{v:"3",l:"Scenarios"},{v:"CAPM",l:"WACC Build"},{v:"Tornado",l:"Value Drivers"}],obj:"Standalone DCF built on operational KPI drivers \u2014 demonstrating FCF mechanics, WACC derivation, and terminal value sensitivity.",meth:["Driver-based revenue: Volume x Price x Product Mix","UFCF: EBIT to NOPAT to NWC changes to CapEx to FCF","WACC: risk-free rate, ERP, re-levered beta, cost of debt, target capital structure","Terminal value: Gordon Growth and EV/EBITDA Exit cross-checked","2-way sensitivity: WACC vs Terminal Growth; Revenue CAGR vs EBIT Margin"],out:"Intrinsic Value per Share | Bull/Base/Bear | WACC Sensitivity Table"},
+  {num:"03",f:"dcf",s:"wip",title:"Trading Comparables",cat:"Market Valuation",desc:"Public comparables analysis across a peer set, benchmarking key trading multiples to derive an implied valuation range.",metric:"In Progress",mLbl:"Publishing Soon",stats:[{v:"12",l:"Comparables"},{v:"6",l:"Multiples"},{v:"IB Grade",l:"Output"}],obj:"Trading comps benchmarking a target against peers on 6 trading multiples to derive a market-based valuation range.",meth:["Peer selection with documented inclusion/exclusion criteria","Data normalisation: LTM metrics, fiscal year calendarisation","Multiples: EV/EBITDA, EV/EBIT, EV/Revenue, NTM P/E, Price/Book, EV/FCF","Summary stats: 25th / Median / 75th percentile","Implied valuation range across LTM and NTM metrics"],out:"Peer Benchmarking Table | Implied Valuation Range (6 multiples) | Pitchbook Output"}
+];
+var mIdx=0;
+function renderProjects(){var list=document.getElementById("projList");if(!list)return;var rows="";for(var i=0;i<DEALS.length;i++){var d=DEALS[i];var badge=d.s==="done"?"Completed":"In Progress";rows+="<div class='prow' data-i='"+i+"' style='transition-delay:"+(i*0.1)+"s'><div class='pr-n'>"+d.num+"</div><div><div class='pr-title'>"+d.title+"</div><div class='pr-cat'>"+d.cat+"</div></div><div class='pr-desc'>"+d.desc+"</div><div><span class='pr-badge "+d.s+"'>"+badge+"</span></div><div class='pr-met'>"+d.metric+"<small>"+d.mLbl+"</small></div><div class='pr-arr'>&#8599;</div></div>";}list.innerHTML=rows;var prows=list.querySelectorAll(".prow");for(var j=0;j<prows.length;j++){(function(r){r.addEventListener("click",function(){openM(+r.dataset.i);});})(prows[j]);}setTimeout(function(){var pr=list.querySelectorAll(".prow");for(var k=0;k<pr.length;k++){(function(r,delay){setTimeout(function(){r.classList.add("vis");},delay);})(pr[k],k*80);}},100);}
+function openM(idx){mIdx=idx;renderM();document.getElementById("mBg").classList.add("on");document.body.style.overflow="hidden";document.getElementById("mPanel").scrollTop=0;}
+function renderM(){var d=DEALS[mIdx];var stats="";for(var i=0;i<d.stats.length;i++){stats+="<div class='mm'><div class='mm-v'>"+d.stats[i].v+"</div><div class='mm-l'>"+d.stats[i].l+"</div></div>";}var meth="";for(var i=0;i<d.meth.length;i++){meth+="<li>"+d.meth[i]+"</li>";}document.getElementById("mCont").innerHTML="<div class='mp-top'><div class='mp-eye'>Engagement "+d.num+" of "+DEALS.length+" \u2014 "+d.cat.toUpperCase()+"</div><div class='mp-h'>"+d.title+"</div><p class='mp-tagline'>"+d.desc+"</p></div><div class='mp-metrics'>"+stats+"</div><div class='mp-body'><div class='ms'><div class='ms-t'>Engagement Objective</div><p>"+d.obj+"</p></div><div class='ms'><div class='ms-t'>Methodology</div><ul>"+meth+"</ul></div><div class='ms'><div class='ms-t'>Key Deliverables</div><div class='out-box'><p>"+d.out+"</p></div></div></div>";document.getElementById("mPos").textContent=(mIdx+1)+" / "+DEALS.length;document.getElementById("mPrev").disabled=(mIdx===0);document.getElementById("mNext").disabled=(mIdx===DEALS.length-1);}
+function navM(d){mIdx=Math.max(0,Math.min(DEALS.length-1,mIdx+d));renderM();document.getElementById("mPanel").scrollTop=0;}
+function closeM(e){if(!e||e.target===document.getElementById("mBg")||e.target.classList.contains("mp-x")){document.getElementById("mBg").classList.remove("on");document.body.style.overflow="";}}
+function handleForm(e){e.preventDefault();var btn=document.querySelector(".sub-btn");btn.textContent="Sent \u2713";btn.style.background="var(--green)";setTimeout(function(){btn.textContent="Send Message";btn.style.background="";},3000);}
+document.addEventListener("keydown",function(e){if(!document.getElementById("mBg").classList.contains("on"))return;if(e.key==="Escape")closeM({target:document.getElementById("mBg")});if(e.key==="ArrowRight")navM(1);if(e.key==="ArrowLeft")navM(-1);});
+(function(){var area=document.getElementById("pdfArea");var iframe=document.createElement("iframe");iframe.src="feragammo_spa_report.pdf#toolbar=1&navpanes=0&view=FitH";iframe.style.cssText="width:100%;height:660px;border:none;display:block";if(area)area.appendChild(iframe);})();
+var cur=document.getElementById("cur"),curR=document.getElementById("cur-r"),mx=0,my=0,rx=0,ry=0;
+document.addEventListener("mousemove",function(e){mx=e.clientX;my=e.clientY;cur.style.left=mx+"px";cur.style.top=my+"px";});
+(function loop(){rx+=(mx-rx)*0.1;ry+=(my-ry)*0.1;curR.style.left=rx+"px";curR.style.top=ry+"px";requestAnimationFrame(loop);})();
+(function(){document.body.style.overflow="hidden";var fill=document.getElementById("iFill"),pct=document.getElementById("iPct"),n=0,done=false;function dismiss(){if(done)return;done=true;var intro=document.getElementById("intro");if(intro)intro.classList.add("out");document.body.style.overflow="";}setTimeout(dismiss,2500);var iv=setInterval(function(){n=Math.min(n+Math.floor(Math.random()*6)+2,100);if(fill)fill.style.width=n+"%";if(pct)pct.textContent=n+"%";if(n>=100){clearInterval(iv);setTimeout(dismiss,300);}},25);})();
+window.addEventListener("scroll",function(){document.getElementById("nav").classList.toggle("stuck",scrollY>40);});
+function toggleMenu(){document.getElementById("mob-nav").classList.toggle("open");}
+var io=new IntersectionObserver(function(entries){for(var i=0;i<entries.length;i++){var e=entries[i];if(!e.isIntersecting)continue;e.target.classList.add("on");if(e.target.id==="skEl"){var cats=e.target.querySelectorAll(".sk-cat");for(var j=0;j<cats.length;j++){(function(cat,delay){setTimeout(function(){cat.classList.add("vis");},delay);})(cats[j],j*140);}}if(e.target.classList.contains("tl")){var items=e.target.querySelectorAll(".tl-i");for(var j=0;j<items.length;j++){(function(item,delay){setTimeout(function(){item.classList.add("vis");},delay);})(items[j],j*160+100);}}io.unobserve(e.target);}},{threshold:0.07});
+document.querySelectorAll(".rv").forEach(function(el){io.observe(el);});
+["r1","r2","r3","r4","skEl"].forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el);});
+document.querySelectorAll(".tl").forEach(function(el){io.observe(el);});
+(function(){var hero=document.getElementById("hero");if(!hero)return;var colors=["rgba(155,111,41,.15)","rgba(155,111,41,.08)","rgba(209,169,68,.12)"];for(var i=0;i<12;i++){var p=document.createElement("div");p.className="particle";var s=Math.random()*4+2;p.style.cssText="width:"+s+"px;height:"+s+"px;left:"+Math.round(Math.random()*100)+"%;bottom:"+Math.round(Math.random()*30)+"%;animation-duration:"+(3+Math.random()*4).toFixed(1)+"s;animation-delay:"+Math.random().toFixed(1)+"s;background:"+colors[Math.floor(Math.random()*3)]+";position:absolute;border-radius:50%;pointer-events:none;animation-name:floatUp";hero.appendChild(p);}})();
+(function(){var MKTS=[{region:"US Markets",idx:"S&P 500",val:"5,702",chg:"+0.48%",pts:"+27.3",up:true,path:"M0,28 C8,24 16,20 24,18 C32,16 38,20 46,18 C54,16 60,12 68,10 C76,8 82,12 90,10 C98,8 100,7"},{region:"Europe",idx:"Euro Stoxx 50",val:"5,128",chg:"-0.22%",pts:"-11.3",up:false,path:"M0,8 C8,10 16,12 24,14 C32,16 38,14 46,16 C54,18 60,20 68,22 C76,24 82,22 90,24 C98,27 100,28"},{region:"India",idx:"NIFTY 50",val:"22,461",chg:"+0.71%",pts:"+158",up:true,path:"M0,30 C8,26 16,22 24,18 C32,14 38,16 46,12 C54,8 60,10 68,6 C76,4 82,5 90,4 C98,3 100,2"},{region:"Commodities",idx:"Gold XAU/USD",val:"2,918",chg:"+0.33%",pts:"+9.6",up:true,path:"M0,22 C8,20 16,18 24,16 C32,14 38,16 46,14 C54,12 60,10 68,8 C76,6 82,9 90,8 C98,7 100,6"}];var grid=document.getElementById("mktGrid");if(!grid)return;var html="";for(var i=0;i<MKTS.length;i++){var m=MKTS[i],col=m.up?"#6fcf97":"#eb5757",id="g"+i,arrow=m.up?"&#9650;":"&#9660;";html+="<div style='background:var(--ink);padding:18px 16px;display:flex;flex-direction:column'><div style='font-family:var(--mono);font-size:7.5px;letter-spacing:.22em;text-transform:uppercase;color:rgba(246,241,231,.28);margin-bottom:2px'>"+m.region+"</div><div style='font-family:var(--mono);font-size:9px;color:rgba(246,241,231,.45);margin-bottom:8px'>"+m.idx+"</div><div style='font-family:var(--serif);font-size:26px;font-weight:500;color:var(--paper);line-height:1;margin-bottom:4px'>"+m.val+"</div><div style='font-family:var(--mono);font-size:9px;font-weight:500;color:"+col+"'>"+arrow+" "+m.chg+" ("+m.pts+")</div><div style='margin-top:10px;height:30px'><svg viewBox='0 0 100 30' preserveAspectRatio='none' style='width:100%;height:30px'><defs><linearGradient id='"+id+"' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='"+col+"' stop-opacity='.15'/><stop offset='100%' stop-color='"+col+"' stop-opacity='0'/></linearGradient></defs><path d='"+m.path+" L100,30 L0,30 Z' fill='url(#"+id+")'/><path d='"+m.path+"' fill='none' stroke='"+col+"' stroke-width='1.5' stroke-linecap='round'/></svg></div></div>";}grid.innerHTML=html;function tick(){var el=document.getElementById("mktClock");if(el)el.textContent=new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",second:"2-digit",timeZone:"Europe/Paris"})+" CET";}tick();setInterval(tick,1000);})();
+renderProjects();
+</script>
+</body>
+</html>
