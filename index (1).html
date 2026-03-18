@@ -949,6 +949,16 @@ var DEALS=[
    obj:"Trading comps benchmarking a target against peers on 6 trading multiples to derive a market-based valuation range.",
    meth:["Peer selection with documented inclusion/exclusion criteria","Data normalisation: LTM metrics, fiscal year calendarisation","Multiples: EV/EBITDA, EV/EBIT, EV/Revenue, NTM P/E, Price/Book, EV/FCF","Summary stats: 25th / Median / 75th percentile","Implied valuation range across LTM and NTM metrics"],
    out:"Peer Benchmarking Table | Implied Valuation Range (6 multiples) | Pitchbook Output"}
+   ,
+{num:"04",f:"python",s:"wip",
+title:"Deal Sourcing & Preliminary Diligence Engine",
+cat:"Python · European M&A Deal Technology",
+desc:"A Python-based deal workflow tool replicating early-stage M&A analyst work — universe screening, acquisition target ranking, financial statement standardisation, and FDD-style preliminary diligence — built on public European market data.",
+metric:"Building",mLbl:"6 Modules",
+stats:[{v:"6",l:"Modules"},{v:"EU",l:"Market Focus"},{v:"Python",l:"Stack"}],
+obj:"Replicates the full early-stage deal team workflow: universe definition → acquisition target screening → ranking → financial statement standardisation → preliminary transaction advisory review → shortlist generation. Built on public European market data (Euronext Paris / SBF 120 phase one, broader Europe phase two). Designed to be credible across M&A, PE, investment banking, and deal advisory recruiting.",
+meth:["Module 1 — Universe Screener: Filter European listed companies by sector, geography, market cap, EV, revenue growth, EBITDA margin, leverage, and trading multiples. Sidebar filters, sortable results table, benchmark badges by sector.","Module 2 — Acquisition Target Ranker: Transparent 8-pillar scoring engine (growth, profitability, balance sheet quality, leverage, valuation attractiveness, size compatibility, geographic relevance, acquisition fit) producing a 0–100 composite score with radar chart breakdown.","Module 3 — Financial Statement Standardisation: Standardised IS / BS / CF for each target — 5-year historical view, common-size analysis, ratio analysis, trend charts. Built on yfinance with graceful fallback to static demo dataset.","Module 4 — Transaction Advisory / Preliminary Diligence View: QoE overview, adjusted EBITDA bridge, working capital review, net debt review, red flag panel with severity badges, and preliminary transaction commentary.","Module 5 — Deal Signal Monitor: Public deal-watch engine monitoring takeover announcements, strategic review language, stake disclosures, restructuring filings.","Module 6 — Shortlist Dashboard: Ranked targets with score breakdown, financial snapshot, diligence flags, deal signal indicators, inclusion rationale, and exportable Excel output."],
+out:"Phase 1 — Euronext Paris / SBF 120 screener + 8-pillar ranker + financial statements + FDD-style diligence view + shortlist export | Stack: Python · Pandas · Streamlit · Plotly · yfinance"}
 ];
 
 var mIdx=0;
